@@ -1,7 +1,6 @@
-// No Read/Write permitted.
 {
   "rules": {
-    ".read": false,
-    ".write": false
+    ".read": "auth != null",
+    ".write": "auth != null"
   }
 }
